@@ -6,6 +6,10 @@
 </head>
 
 <body>
+  <nav style="margin-bottom: 20px;">
+    <a href="index.php">FILL OUT SURVEY</a> |
+    <a href="results.php">VIEW SURVEY RESULTS</a>
+  </nav>
   <form action="favfood.php" method="post">
     <label>_Surveys</label>
     <br>
@@ -33,7 +37,7 @@
     <div>
       <label>Date of Birth</label>
       <div>
-        <input type="datetime" name='DateofBirth'>
+        <input type="date" name="DateofBirth">
       </div>
     </div>
     <br>
@@ -86,43 +90,43 @@
 
       <tr>
         <td>I like to watch movies</td>
-        <td><input type="radio" value="1"></td>
-        <td><input type="radio" value="2"></td>
-        <td><input type="radio" value="3"></td>
-        <td><input type="radio" value="4"></td>
-        <td><input type="radio" value="5"></td>
+        <td><input type="radio" name="watch_movies" value="1"></td>
+        <td><input type="radio" name="watch_movies" value="2"></td>
+        <td><input type="radio" name="watch_movies" value="3"></td>
+        <td><input type="radio" name="watch_movies" value="4"></td>
+        <td><input type="radio" name="watch_movies" value="5"></td>
 
       </tr>
 
       <tr>
         <td>I like to listen to radio</td>
-        <td><input type="radio" value="1"></td>
-        <td><input type="radio" value="2"></td>
-        <td><input type="radio" value="3"></td>
-        <td><input type="radio" value="4"></td>
-        <td><input type="radio" value="5"></td>
+        <td><input type="radio" name="listen_radio" value="1"></td>
+        <td><input type="radio" name="listen_radio" value="2"></td>
+        <td><input type="radio" name="listen_radio" value="3"></td>
+        <td><input type="radio" name="listen_radio" value="4"></td>
+        <td><input type="radio" name="listen_radio" value="5"></td>
 
       </tr>
 
 
       <tr>
         <td>I like to eat out</td>
-        <td><input type="radio" value="1"></td>
-        <td><input type="radio" value="2"></td>
-        <td><input type="radio" value="3"></td>
-        <td><input type="radio" value="4"></td>
-        <td><input type="radio" value="5"></td>
+        <td><input type="radio" name="eat_out" value="1"></td>
+        <td><input type="radio" name="eat_out" value="2"></td>
+        <td><input type="radio" name="eat_out" value="3"></td>
+        <td><input type="radio" name="eat_out" value="4"></td>
+        <td><input type="radio" name="eat_out" value="5"></td>
 
       </tr>
 
 
       <tr>
         <td>I like to watch TV</td>
-        <td><input type="radio" value="1"></td>
-        <td><input type="radio" value="2"></td>
-        <td><input type="radio" value="3"></td>
-        <td><input type="radio" value="4"></td>
-        <td><input type="radio" value="5"></td>
+        <td><input type="radio" name="watch_tv" value="1"></td>
+        <td><input type="radio" name="watch_tv" value="2"></td>
+        <td><input type="radio" name="watch_tv" value="3"></td>
+        <td><input type="radio" name="watch_tv" value="4"></td>
+        <td><input type="radio" name="watch_tv" value="5"></td>
 
       </tr>
 
@@ -141,3 +145,4 @@
 </body>
 
 </html>
+    
