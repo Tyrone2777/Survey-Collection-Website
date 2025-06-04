@@ -8,7 +8,7 @@
 <body>
   <nav style="margin-bottom: 20px;">
     <a href="index.php">FILL OUT SURVEY</a> |
-    <a href="results.php">VIEW SURVEY RESULTS</a>
+    <a href="index.php">VIEW SURVEY RESULTS</a>
   </nav>
   <form action="favfood.php" method="post">
     <label>_Surveys</label>
@@ -21,7 +21,7 @@
     <div>
       <label>Full Names</label>
       <div>
-        <input type="text" name="fullName">
+        <input type="text" name="fullName" required>
       </div>
     </div>
     <br>
@@ -29,7 +29,7 @@
     <div>
       <label>E-Mail</label>
       <div>
-        <input type="text" name='EMail'>
+        <input type="text" name='EMail' required>
       </div>
     </div>
     <br>
@@ -37,7 +37,7 @@
     <div>
       <label>Date of Birth</label>
       <div>
-        <input type="date" name="DateofBirth">
+        <input type="date" name="DateofBirth" required>
       </div>
     </div>
     <br>
@@ -45,7 +45,7 @@
     <div>
       <label>Contact Number</label>
       <div>
-        <input type="number" name="ContactNumber" value='ContactNumber'>
+        <input type="number" name="ContactNumber" value='ContactNumber' required>
       </div>
     </div>
     <br>
@@ -57,7 +57,7 @@
 
 
     <label>Pizza</label>
-    <input type="checkbox" name="Pizza" value="Pizza">
+    <input type="checkbox" name="Pizza" value="Pizza" >
 
 
     <label>Pasta</label>
@@ -145,4 +145,4 @@
 </body>
 
 </html>
-    
+     
